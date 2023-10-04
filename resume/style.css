@@ -85,7 +85,7 @@ BODY {
 }
 /* Just targetting the list items in .menu*/
 .menu ul li{
-    display:inline;
+        display:inline;
 }
 /* bulleted lists for education */
 #degrees{
