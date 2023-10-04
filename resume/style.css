@@ -5,42 +5,108 @@ BODY {
     color:#444;
     font-weight:400;
 }
+/* container around everything so it looks more like a webpage */
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
 /* my name at the top */
-h1{
+/* added a bottom border under my name */
+#name{
+    margin:0 auto;
     font-size:3em;
     color:#33485e;
     text-transform: uppercase;
     text-align: center;
-} 
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+}
 /* my title under my name */
-strong{
+#title{
+    margin:0 auto;
     text-transform: uppercase;
     font-size:1.5em;
+    font-weight: 600;
     color:#33485e;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 /* all of the section titles: experience, education, and skills */
-h2{
+.sectionheader{
     font-size: 1.5em;
     text-transform: uppercase;
     color: white;
     background-color: #33485e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70%;
+    min-width: 300px;
 }
 /* job titles */
-h3{
+.jobtitle{
     font-weight: 600;
     font-size: 1.5em;
 }
 /* job organization */
-h4{
+.organization{
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 /* job dates */
-h5{
+.date{
     font-weight: 400;
     font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-/* bulleted lists for contact info, skills, and education */
-ul{
+.description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* contact list */
+.menu{
     font-size: 1em;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin:0 auto;
+}
+/* Just targetting the list items in .menu*/
+.menu ul li{
+    display:inline;
+}
+/* bulleted lists for education */
+#degrees{
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* bulleted lists for skills */
+#do{
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* text description intro */
+.top{
+    width: 60%;
+    min-width: 300px;
+    margin:0 auto;
+    margin-bottom: 30px;
 }
