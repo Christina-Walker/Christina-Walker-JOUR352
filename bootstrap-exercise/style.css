@@ -1,0 +1,30 @@
+/* styles for bootstrap exercise */
+BODY {
+    font-family: 'special elite', Arial, sans-serif;
+}
+/* container */
+.row {
+text-align: center;
+align-items: center;
+justify-content: center;
+padding-bottom: 50px;
+}
+h1{
+    font-family: 'speacial elite', Arial, sans-serif;
+}
+h2{
+    font-family: 'speacial elite', Arial, sans-serif;
+}
+.col-md-4{
+    font-family: 'speacial elite', Arial, sans-serif;
+}
+.btn{
+    font-family: 'speacial elite', Arial, sans-serif;
+    align-items: center;
+}
+.navbar-brand{
+    font-family: 'speacial elite', Arial, sans-serif;
+}
+@media only screen and (max-width: 500px) {
+    padding-top: 50px;
+}
