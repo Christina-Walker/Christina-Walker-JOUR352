@@ -1,6 +1,6 @@
 /* styles for bootstrap exercise */
 BODY {
-    font-family: 'special elite', Arial, sans-serif;
+    font-family: 'Special Elite', Arial, sans-serif;
 }
 /* container */
 .row {
@@ -9,22 +9,35 @@ align-items: center;
 justify-content: center;
 padding-bottom: 50px;
 }
+img{
+    width=100%;
+    height=500; 
+    max-width=500px;
+    padding-bottom: 25px;
+}
 h1{
-    font-family: 'speacial elite', Arial, sans-serif;
+    font-family: 'Special Elite', Arial, sans-serif;
 }
 h2{
-    font-family: 'speacial elite', Arial, sans-serif;
+    font-family: 'Special Elite', Arial, sans-serif;
 }
-.col-md-4{
-    font-family: 'speacial elite', Arial, sans-serif;
+h3{
+    font-family: 'Special Elite', Arial, sans-serif;
 }
 .btn{
-    font-family: 'speacial elite', Arial, sans-serif;
-    align-items: center;
+    font-family: 'Special Elite', Arial, sans-serif;
+}
+.bi{
+    font-size: 3em;
 }
 .navbar-brand{
-    font-family: 'speacial elite', Arial, sans-serif;
+    font-family: 'Special Elite', Arial, sans-serif;
 }
 @media only screen and (max-width: 500px) {
+h2{
     padding-top: 50px;
+}
+.btn{
+    background-color:teal;
+}
 }
