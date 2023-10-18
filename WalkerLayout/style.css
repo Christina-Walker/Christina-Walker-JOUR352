@@ -2,3 +2,56 @@
     margin: 0 auto;
     width: 900px;
 }
+body{
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+blockquote{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 2;
+}
+p{
+    line-height: 3;
+}
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+}
+#byline{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+h3 {
+    font-family: Georgia, serif;
+    font-size: 10px
+}
+br{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    line-height: 10px;
+}
+.imagetop{
+    width: 900px;
+    padding-top: 5%;
+}
+.image2{
+    width: 600px;
+}
+.image1{
+    width: 900px;
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.image3{
+    width: 600px;
+}
