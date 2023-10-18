@@ -8,8 +8,9 @@ body{
 }
 blockquote{
     font-size: 30px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 2;
+    color: darkred;
 }
 p{
     line-height: 3;
@@ -26,10 +27,14 @@ h1 {
 h2 {
     font-family: Helvetica, sans-serif;
     font-size: 20px;
+    text-align: center;
+    color: darkred;
 }
-h3 {
+.caption {
     font-family: Georgia, serif;
-    font-size: 10px
+    font-size: 12px;
+    line-height: 1.5;
+    color: #606060;
 }
 br{
     margin-top: 10px;
@@ -42,16 +47,15 @@ br{
     padding-top: 5%;
 }
 .image2{
-    width: 600px;
+    width: 900px;
 }
 .image1{
     width: 900px;
-    max-width: 100%;
-    max-height: 100%;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+    margin: 0 auto;
 }
 .image3{
-    width: 600px;
+    width: 900px;
+}
+a{
+    color: black;
 }
