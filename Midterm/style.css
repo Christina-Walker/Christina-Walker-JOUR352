@@ -1,0 +1,85 @@
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+/* Styles for body text*/
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+/* Styles for paragraph text, the actual story's text*/
+p{
+    line-height: 1.5;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+    color: darkred;
+}
+#byline{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+}
+.image1{
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagetop{
+    width: 600px;
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image2{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image3{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image4{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caption {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #606060;
+    text-align: center;
+}
+blockquote{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: darkred;
+}
+a{
+    color: black;
+}
+ul{
+    line-height: 2;
+}
+.credits{
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #606060;
+    padding-bottom: 5%;
+}
