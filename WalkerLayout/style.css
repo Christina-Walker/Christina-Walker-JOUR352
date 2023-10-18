@@ -48,13 +48,15 @@ br{
 }
 .image2{
     width: 900px;
+    text-align: center;
 }
 .image1{
     width: 900px;
-    margin: 0 auto;
+    text-align: center;
 }
 .image3{
     width: 900px;
+    text-align: center;
 }
 a{
     color: black;
