@@ -1,0 +1,166 @@
+#content {
+    margin: 0 auto;
+    width: 100%;
+}
+.header-image{
+    width: 100%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circular--portrait { 
+    position: relative; 
+    width: 450px; 
+    height: 450px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular--portrait img { 
+    width: 100%; 
+    height: auto;
+}
+.about-section{
+    color: #1C2F50;
+}
+.bg-dark{
+    background-color: #1C2F50;
+    color: white;
+}
+.box {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6E8F5;
+    text-align: center;
+  }
+  .box2 {
+    width: 1200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6E8F5;
+  }
+  .box3 {
+    width: 1200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6E8F5;
+  }
+  .box4 {
+    width: 1200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6E8F5;
+  }
+  .box5 {
+    width: 1200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6E8F5;
+  }
+  .box6 {
+    width: 1200px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6E8F5;
+  }
+  .box7 {
+    width: 1200px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6E8F5;
+  }
+  /* all of the section titles: experience, education, and skills */
+.sectionheader{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #1C2F50;
+    background-color: #A5CBF4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    min-width: 300px;
+}
+/* job titles */
+.jobtitle{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+/* job organization */
+.organization{
+    font-weight: 400;
+    font-size: 1.25em;
+}
+/* job dates */
+.date{
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* contact list */
+.menu{
+    font-size: 1em;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin:0 auto;
+}
+/* Just targetting the list items in .menu*/
+.menu ul li{
+        display:inline;
+}
+/* bulleted lists for education */
+#degrees{
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* bulleted lists for skills */
+#do{
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* text description intro */
+.top{
+    width: 60%;
+    min-width: 300px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.bi{
+    font-size: 3em;
+}
+.row {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top:25px;
+    }
+.footer{
+    width: 100%;
+}
