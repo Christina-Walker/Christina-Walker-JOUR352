@@ -1,24 +1,16 @@
 #content {
     margin: 0 auto;
-    width: 100%;
+    width: 1200px;
+}
+body{
+    font-family: 'PT Serif', 'Times New Roman', serif;
 }
 .header-image{
     width: 100%;
-    height: 25%;
+    height: 533px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.circular--portrait { 
-    position: relative; 
-    width: 450px; 
-    height: 450px; 
-    overflow: hidden; 
-    border-radius: 50%; 
-} 
-.circular--portrait img { 
-    width: 100%; 
-    height: auto;
 }
 .about-section{
     color: #1C2F50;
@@ -27,13 +19,8 @@
     background-color: #1C2F50;
     color: white;
 }
-.box {
-    width: 100%;
-    height: 300px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #D6E8F5;
-    text-align: center;
+h1{
+    color:#1C2F50;
   }
   .box2 {
     width: 1200px;
@@ -71,7 +58,7 @@
     background-color: #D6E8F5;
   }
   .box7 {
-    width: 1200px;
+    width: 100%;
     height: 300px;
     padding: 10px;
     margin: 10px;
@@ -89,7 +76,8 @@
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
-    min-width: 300px;
+    min-width: 500px;
+    font-weight: 200;
 }
 /* job titles */
 .jobtitle{
@@ -163,4 +151,5 @@
     }
 .footer{
     width: 100%;
+    color: white;
 }
