@@ -38,7 +38,6 @@ h3{
 a:link {
     color: #8B0000;
   }
-  
 /* visited link */
   a:visited {
     color: #8B0000;
@@ -53,6 +52,10 @@ a:link {
   a:active {
     color: #8B0000;
   }
+iframe{
+    width: 75%;
+    height: 75%;
+}
 li{
     margin-bottom: 5px;
 }
